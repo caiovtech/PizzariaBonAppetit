@@ -8,19 +8,20 @@
 }
 
 body {
-    background: linear-gradient(180deg, rgb(12, 10, 10) 0%, rgb(10, 8, 7) 50%, rgb(20, 15, 15) 100%);
+    background-color: rgb(12, 10, 10);
     min-height: 100vh;
 }
 
-.cabecalho {
+.header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     height: 60px;
+    background-color: rgb(12, 10, 10);
 }
 
-.cabecalho h1 {
+.header h1 {
     font-family: "Lobster", sans-serif;
     color: white;
     font-size: 35px;
@@ -48,26 +49,35 @@ body {
     object-fit: cover;
 }
 
-.secao1 {
+.section-1 {
     display: flex;
     flex-direction: row;
-    height: 300px;
+    height: 400px;
 }
 
-.secao1 img {
-    border-bottom-left-radius: 20px;
+.section-1 img {
+    border-bottom-left-radius: 30px;
 }
 
-.secao1-container-direita {
+.section-1-container-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(5, 5, 5);
+    width: 100%;
+    gap: 80px;
+    border-bottom-right-radius: 30px;
+}
+
+.section-1-container-right-up {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(12, 10, 10);
-    width: 100%;
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 30px;
 }
 
-.secao1-container-direita h2 {
+.section-1-container-right h2 {
     font-family: "Lobster", sans-serif;
     color: white;
     font-size: 40px;
@@ -75,16 +85,37 @@ body {
     border-bottom: 2px solid white;
 }
 
-#folha1 {
+#leaf-1 {
     height: 70px;
     filter: invert(100%);
     transform: rotate(-20deg) scaleX(-1);
-    margin-right: 20px;   
+    margin-right: 20px;
 }
 
-#folha2 {
+#leaf-2 {
     height: 70px;
     filter: invert(100%);
     transform: rotate(20deg);
-    margin-left: 20px;   
+    margin-left: 20px;
+}
+
+.section-1-container-right-down {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.section-2 {
+    background: linear-gradient(180deg, rgb(12, 10, 10) 25%, rgb(20, 18, 18) 45%, rgb(54, 48, 48) 100%);
+    height: 800px;
+}
+
+.section-2 h1 {
+    font-family: "Lobster", sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
 }
