@@ -110,8 +110,9 @@ body {
 }
 
 .section-2 {
-    background: linear-gradient(180deg, rgb(12, 10, 10) 25%, rgb(20, 18, 18) 45%, rgb(54, 48, 48) 100%);
+    background: linear-gradient(180deg, rgb(12, 10, 10) 5%, rgb(20, 18, 18) 20%, rgb(32, 29, 29) 40%, rgb(54, 48, 48) 60%, rgb(80, 78, 78) 80%);
     height: 800px;
+    /* border: 1px solid white; */
 
     h1 {
         font-family: "Lobster", sans-serif;
